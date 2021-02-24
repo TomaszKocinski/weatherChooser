@@ -1,0 +1,18 @@
+GET http://localhost:8080/weatherBit
+###
+GET http://localhost:8080/accuWeather
+###
+GET http://localhost:8080/openWeatherMap
+###
+GET http://localhost:8080/getAllProviderWeather
+###
+GET http://localhost:8080/getAllProviders
+
+###
+POST http://localhost:8080/chooseProvider?idOfUser=DSA&weatherProviders=ACCUWEATHER
+###
+PUT http://localhost:8080/chooseProvider?idOfUser=DSA&weatherProviders=OPENWEATHERMAP
+
+
+###
+GET http://localhost:8080/getYourProviderWeather?idOfUser=DSA
